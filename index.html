@@ -8,13 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="colorList()">color me</button>
-    <ul id="ulToColor" onclick="colorList()">
-        <li>Щоб лани широкополі,</li>
-        <li>і Дніпро, і кручі,</li>
-        <li>стали вам поперек горла,</li>
-        <li>москалі їбучі!</li>
-    </ul>
+    <div class="main_wrap">
+        <div class="main_div">
+            <div>
+                <button onclick="colorList()">color me</button>
+                <ul id="ulToColor" onclick="colorList()">
+                    <li>Щоб лани широкополі,</li>
+                    <li>і Дніпро, і кручі,</li>
+                    <li>стали вам поперек горла,</li>
+                    <li>москалі їбучі!</li>
+                </ul>
+            
+            </div>
+            <div>
+                <button onclick="showPic(event)">show picture</button>
+                <div class="picture_holder"></div>
+                
+            </div>
+        </div>
+    </div>
 
     <script src="main.js"></script>
 </body>

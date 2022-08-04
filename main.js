@@ -18,3 +18,8 @@ function colorList () {
     colorChangedFlag = !colorChangedFlag;
 
 }
+
+function showPic(event) {
+    let targetDiv = document.getElementsByClassName('picture_holder');
+    targetDiv[0].innerHTML = '<img src="https://picsum.photos/200/300" alt="It must be here!"></img>';
+}

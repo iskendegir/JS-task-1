@@ -5,3 +5,16 @@
 .yellow {
     color: yellow;
 }
+
+.main_wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    background: rgba(191, 205, 207, 0.741);
+    padding: 8px;
+}
